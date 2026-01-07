@@ -4,5 +4,7 @@ CREATE TABLE usuarios(
     email VARCHAR(100) NOT NULL UNIQUE,
     senha VARCHAR(100) NOT NULL,
 
+    
+
     PRIMARY KEY(id)
 );
